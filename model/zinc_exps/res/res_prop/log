@@ -1,0 +1,24 @@
+Constraints: qed
+INFO::Optimizing
+INFO::decoding
+INFO::Generating molecules
+INFO::Evaluating on predicted properties
+INFO::Evaluating on real properties
+IMPORTANT::Top 3 scores for ['qed']
+qed:
+	On reality:
+		0: 0.9483189919023285 COc1ccc(C(=O)NC2COc3cc(F)c(F)cc32)cc1
+		1: 0.9481790876226337 Cn1ccnc1COc1ccc2CN=C(C(F)(F)F)Nc2c1
+		2: 0.9481686472679022 O=C(c1ccccc1OC(F)F)N1CC(O)c2ccccc21
+Constraints: logp
+INFO::Optimizing
+INFO::decoding
+INFO::Generating molecules
+INFO::Evaluating on predicted properties
+INFO::Evaluating on real properties
+IMPORTANT::Top 3 scores for ['logp']
+logp:
+	On reality:
+		0: 1.8420780331639166 Clc1cc(Cl)c(C=C(c2c(C(=C(c3c(Cl)cc(Cl)c(Cl)c3)c3c(Cl)cc(Cl)c(Cl)c3Cl)c3c(Cl)cc(Cl)cc3Cl)c(Cl)c(Cl)c(Cl)c2)c2c(Cl)cc(Cl)c(Cl)c2Cl)c(Cl)c1
+		1: 1.8327040965472845 Clc1cc(Cl)c(C(=Cc2c(Cl)cc(Cl)c(Cl)c2)c2c(C(=C(c3c(Cl)cc(Cl)c(Cl)c3Cl)c3c(Cl)cc(Cl)c(Br)c3Cl)c3c(Cl)cc(Cl)cc3Cl)cc(Cl)c(Cl)c2Cl)c(Cl)c1
+		2: 1.8189981218799245 Clc1cc(Cl)c(C=C(c2c(C(=C(c3c(Cl)cc(Cl)cc3Cl)c3c(Cl)cc(Cl)c(Cl)c3Cl)c3c(Cl)cc(Cl)cc3Cl)c(Cl)c(Cl)c(Cl)c2)c2c(Cl)cc(Cl)cc2Cl)c(Cl)c1

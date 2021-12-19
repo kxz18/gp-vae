@@ -1,0 +1,13 @@
+INFO::device: cuda:8
+INFO::Sampling 800 for constraints optimization
+INFO::Loading from cached file
+INFO::Getting latent representation
+INFO::Optimizing...
+INFO::success rate: 1.0, mean improvement: 7.463449360557853, stdvar: 2.3485718049029387
+INFO::similarity mean: 0.20247545364309835, stdvar: 0.10956430680799721
+INFO::success rate: 0.99875, mean improvement: 6.415606061548188, stdvar: 1.8649381470662447
+INFO::similarity mean: 0.26555132953480126, stdvar: 0.07694065740180087
+INFO::success rate: 0.98875, mean improvement: 4.19183470620304, stdvar: 1.3025697803144962
+INFO::similarity mean: 0.46039751834358356, stdvar: 0.06119059396086947
+INFO::success rate: 0.9025, mean improvement: 2.524683296399347, stdvar: 1.1199929839791656
+INFO::similarity mean: 0.6576930474887652, stdvar: 0.051469378286817524
