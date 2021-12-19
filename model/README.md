@@ -3,7 +3,7 @@
 # Instructions
 
 ## Requirements
- - pytorch_geometric  # Maybe you need to refer to its documentation for installation
+ - pytorch_geometric  # Please refer to its documentation for installation
  - pytorch_lightning
  - rdkit
 
@@ -59,16 +59,23 @@ python train.py \
 	--patience 3
 ```
 
-### Common Metrics
+### Distribution Learning
+
+To run the distribution-learning benchmarks, you need to install **guacamol** with pip:
+
 ```bash
-python generate.py \
-      --common_metrics \
-      --ckpt /path/to/checkpoint \
-      --train_set zinc_exps/data/train_zinc250k/train.txt \
-	  --test_set zinc_exps/data/test_zinc250k/test.txt \
-      --n_samples 10000 \
-      --model vae_piece \
-      --cpus 8
+pip install guacamol
+```
+
+Then you can run these benchmarks as follows:
+
+```bash
+python guacamol_exps/distribution_learning.py \
+  --model vae_piece \
+  --ckpt /path/to/checkpoint \
+  --gpu 0 \
+  --output_dir results \
+  --dist_file /path/to/train/set \
 ```
 
 ### Property Optimization
