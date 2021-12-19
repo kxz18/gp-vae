@@ -3,7 +3,7 @@
 # Instructions
 
 ## Requirements
- - pytorch_geometric  # Maybe you need to refer to its documentation for installation
+ - pytorch_geometric  # Please refer to its documentation for installation
  - pytorch_lightning
  - rdkit
 
@@ -60,6 +60,15 @@ python train.py \
 ```
 
 ### Distribution Learning
+
+To run the distribution-learning benchmarks, you need to install **guacamol** with pip:
+
+```bash
+pip install guacamol
+```
+
+Then you can run these benchmarks as follows:
+
 ```bash
 python guacamol_exps/distribution_learning.py \
   --model vae_piece \
